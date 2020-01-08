@@ -292,21 +292,15 @@ services
     width: 30%;
     height: 30%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    -webkit-animation-name: animatetop;
+    -webkit-animation-name: slidein;
     -webkit-animation-duration: 0.4s;
-    animation-name: animatetop;
+    animation-name: slidein;
     animation-duration: 0.4s
 }
 
-@keyframes animatetop {
-    from {
-        top: -300px;
-        opacity: 0
-    }
-    to {
-        top: 0;
-        opacity: 1
-    }
+@keyframes slidein {
+    from{top: -300px;opacity: 0px;}
+    to{top:0px;opacity: 2px;}
 }
 
 
@@ -545,8 +539,7 @@ Location of Hospitals
 /*****************
 Conected Hospitals
 *****************/
-
-#ConnectedHospitals . {
+#ConnectedHospitals {
     border: 1px solid #e0e5fa;
     background: #fff;
     margin-bottom: 30px;
