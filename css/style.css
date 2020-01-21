@@ -299,8 +299,14 @@ services
 }
 
 @keyframes slidein {
-    from{top: -300px;opacity: 0px;}
-    to{top:0px;opacity: 2px;}
+    from {
+        top: -300px;
+        opacity: 0px;
+    }
+    to {
+        top: 0px;
+        opacity: 2px;
+    }
 }
 
 
@@ -496,7 +502,7 @@ Location of Hospitals
     padding-bottom: 60px;
 }
 
-#venue .venue-info:hover  {
+#venue .venue-info:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
@@ -510,7 +516,6 @@ Location of Hospitals
     transition: 0.3s ease-in-out;
 }
 
-
 #venue .venue-info:before {
     content: center;
     background: rgba(13, 20, 41, 0.8);
@@ -521,7 +526,7 @@ Location of Hospitals
     right: 0;
 }
 
-#venue .venue-gallery:hover  {
+#venue .venue-gallery:hover {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
@@ -539,6 +544,7 @@ Location of Hospitals
 /*****************
 Conected Hospitals
 *****************/
+
 #ConnectedHospitals {
     border: 1px solid #e0e5fa;
     background: #fff;
@@ -590,6 +596,7 @@ Conected Hospitals
     font-style: italic;
     font-size: 15px;
 }
+
 
 /*************
 testimonial
@@ -712,12 +719,12 @@ contact us
 .btn-form:focus {
     background-color: #62a6b3;
     color: #fff;
-    border-radius: 0px;
+    border-radius: 20px;
     padding: 10px 20px;
 }
 
 .br-radius-zero {
-    border-radius: 0px;
+    border-radius: 30px;
 }
 
 .form-control {
